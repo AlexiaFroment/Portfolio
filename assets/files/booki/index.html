@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booki</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/4f932ada6e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="main_cont">
+    <header>
+      <div class="header_logo">
+        <img srcset="
+              images/logo/Booki_desktop.png      285w,
+              images/logo/Booki_tablet_mobil.png 125w
+            " sizes="(min-width: 993px) 285px, 125px" src="images/logo/Booki_desktop.png" alt="Booki" class="logo">
+        <nav>
+          <ul>
+            <li class="links"><a href="#hmlpp_cont">Hébergements</a></li>
+            <li class="links"><a href="#am_cont">Activités</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header_title">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <span>En plein centre ville ou en pleine nature</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="search_cont">
+        <div class="navigation_bar">
+          <div class="gpsIcons navigation_bar">
+            <i class="fa fa-location-dot"></i>
+          </div>
+          <div>
+            <input class="search_btn" type="search" placeholder="Marseille, France">
+          </div>
+          <div class="search_word navigation_bar">Rechercher</div>
+        </div>
+        <div class="filters tabIcons">
+          <!--Utiliser un :hover pour le survol des boutons-->
+          <h3 class="filters_title">Filtres</h3>
+          <div class="button tabIcons">
+            <i class="fa-solid fa-money-bill-1-wave tabIcons"></i>
+            <h3>Economique</h3>
+          </div>
+          <div class="button tabIcons">
+            <i class="fa-solid fa-person tabIcons"></i>
+            <h3>Familial</h3>
+          </div>
+          <div class="button tabIcons">
+            <i class="fa-solid fa-heart tabIcons"></i>
+            <h3>Romantique</h3>
+          </div>
+          <div class="button tabIcons">
+            <i class="fa-solid fa-dog tabIcons"></i>
+            <h3>Animaux autorisés</h3>
+          </div>
+        </div>
+        <div class="infoIcons">
+          <i class="fa-sharp fa-solid fa-info infoIcons"></i>
+          Plus de 500 logements sont disponibles dans cette ville
+        </div>
+      </section>
+      <div id="hmlpp_cont">
+        <section class="hm_dim background-color">
+          <h2 class="hm_title">Hébergements à Marseille</h2>
+          <div class="hm_cont">
+            <!-- div class="hmcont" est le conteneur des 6 articles-->
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/auberge-la-cannebiere_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/auberge-la-cannebiere_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/auberge-la-cannebiere_mobile.jpg
+                      ">
+                  <img class="hm_img" src="images/hebergement_P2/auberge-la-cannebiere_desktop.jpg"
+                    alt="auberge la cannebière">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <span class="overlay">Découvrez-en plus ...</span>
+                <a href="#">
+                  <h4>Auberge la Cannebière</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">25€</span></span>
+                </a>
+                <!--Partie étoiles-->
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="images/hebergement_P2/hotel-du-port_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/hebergement_P2/hotel-du-port_tablet.jpg">
+                  <source media="(min-width: 300px)" srcset="images/hebergement_P2/hotel-du-port_mobile.jpg">
+                  <img class="hm_img" src="images/hebergement_P2/hotel-du-port_desktop.jpg" alt="hotel du port">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel du port</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">52€</span></span>
+                </a>
+                <!--Partie étoiles-->
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/hotel-des-mouettes_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/hotel-des-mouettes_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/hotel-des-mouettes_mobile.jpg
+                      ">
+                  <img class="hm_img" src="images/hebergement_P2/hotel-des-mouettes_desktop.jpg"
+                    alt="hotel les mouettes">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel Les mouettes</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">76€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="images/hebergement_P2/hotel-de-la-mer_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/hebergement_P2/hotel-de-la-mer_tablet.jpg">
+                  <source media="(min-width: 300px)" srcset="images/hebergement_P2/hotel-de-la-mer_mobile.jpg">
+                  <img class="hm_img" src="images/hebergement_P2/hotel-de-la-mer_desktop.jpg" alt="hotel de la mer">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel de la mer</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">46€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/auberge-le-panier_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/auberge-le-panier_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/auberge-le-panier_mobile.jpg
+                      ">
+                  <img class="hm_img" src="images/hebergement_P2/auberge-le-panier_desktop.jpg" alt="auberge le panier">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Auberge Le Panier</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">23€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="hm_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/hotel-chez-amina_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="images/hebergement_P2/hotel-chez-amina_tablet.jpg">
+                  <source media="(min-width: 300px)" srcset="images/hebergement_P2/hotel-chez-amina_mobile.jpg">
+                  <img class="hm_img" src="images/hebergement_P2/hotel-chez-amina_desktop.jpg" alt="hotel chez amina">
+                </picture>
+              </a>
+              <div class="hm_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel chez Amina</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">25€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <br><br>
+          <span class="hm_ap">
+            <a href="#"><strong>Afficher plus</strong></a>
+          </span>
+        </section>
+        <section class="lpp_dim background-color">
+          <div class="lpp_title">
+            <h2>Les plus populaires</h2>
+            <span class="starIcons"><i class="fa-sharp fa-solid fa-star fa-lg" style="color: black"></i></span>
+          </div>
+
+          <div class="lpp_cont">
+            <article class="lpp_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/hotel-le-soleil-du-matin_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/hotel-le-soleil-du-matin_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/hotel-le-soleil-du-matin_mobile.jpg
+                      ">
+                  <img class="lpp_img" src="images/hebergement_P2/hotel-le-soleil-du-matin_desktop.jpg"
+                    alt="hotel le soleil du matin">
+                </picture>
+              </a>
+              <div class="lpp_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel le soleil du matin</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">128€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+
+                    <i class="fa fa-star blue"></i>
+
+                    <i class="fa fa-star blue"></i>
+
+                    <i class="fa fa-star blue"></i>
+
+                    <i class="fa fa-star blue"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="lpp_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/au-coeur-de-l'eau-chambre-d'hotes-resize_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/au-coeur-de-l'eau-chambre-d'hotes-resize_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/au-coeur-de-l'eau-chambre-d'hotes-resize_mobile.jpg
+                      ">
+                  <img class="lpp_img" src="images/hebergement_P2/au-coeur-de-l'eau-chambre-d'hotes-resize_desktop.jpg"
+                    alt="au coeur de l'eau">
+                </picture>
+              </a>
+              <div class="lpp_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Au coeur de l'eau <br>Chambres d'hôtes</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">71€</span></span>
+                </a>
+
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="lpp_card">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 993px)" srcset="
+                        images/hebergement_P2/hotel-tout-bleu-et-blanc-resize_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/hebergement_P2/hotel-tout-bleu-et-blanc-resize_tablet.jpg
+                      ">
+                  <source media="(min-width: 300px)" srcset="
+                        images/hebergement_P2/hotel-tout-bleu-et-blanc-resize_mobile.jpg
+                      ">
+                  <img class="lpp_img" src="images/hebergement_P2/hotel-tout-bleu-et-blanc-resize_desktop.jpg"
+                    alt="hotel tout bleu et blanc">
+                </picture>
+              </a>
+              <div class="lpp_carddesc">
+                <a href="#">
+                  <span class="overlay">Découvrez-en plus ...</span>
+                  <h4>Hôtel tout bleu et blanc</h4>
+                  <br>
+                  <span class="night">Nuit à partir de <span class="price">68€</span></span>
+                </a>
+                <div class="rating">
+                  <div class="stars">
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star blue"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+      <section>
+        <h2 class="am_title">Activités à Marseille</h2>
+        <div id="am_cont">
+          <div class="am_cont_BP">
+            <article class="am_card_gm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="images/activites_P2/vieux-port_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/activites_P2/vieux-port_tablet.jpg">
+                  <source media="(max-width: 767px)" srcset="images/activites_P2/vieux-port_mobile.jpg">
+                  <img class="am_img_gm" src="images/activites_P2/vieux-port_desktop.jpg" alt="vieux port">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">Vieux Port</h4>
+              </a>
+            </article>
+          </div>
+          <div class="am_cont_SP">
+            <article id="am_card_mm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="images/activites_P2/fort-de-pomègues_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/activites_P2/fort-de-pomègues_tablet.jpg">
+                  <source media="(max-width: 767px)" srcset="images/activites_P2/fort-de-pomègues_mobile.jpg">
+                  <img class="am_img_mm" src="images/activites_P2/fort-de-pomègues_desktop.jpg" alt="fort de pomègues">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">Fort de Pomègues</h4>
+              </a>
+            </article>
+            <article id="am_card_xsm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="images/activites_P2/ile-du-frioul_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/activites_P2/ile-du-frioul_tablet.jpg">
+                  <source media="(max-width: 767px)" srcset="images/activites_P2/ile-du-frioul_mobile.jpg">
+                  <img class="am_img_xsm" src="images/activites_P2/ile-du-frioul_desktop.jpg" alt="iles du frioul">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">&Icirc;les du Frioul</h4>
+              </a>
+            </article>
+          </div>
+          <div class="am_cont_BP">
+            <article class="am_card_gm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="
+                        images/activites_P2/parc-national-des-calanques_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/activites_P2/parc-national-des-calanques_tablet.jpg
+                      ">
+                  <source media="(max-width: 767px)" srcset="
+                        images/activites_P2/parc-national-des-calanques_mobile.jpg
+                      ">
+                  <img class="am_img_gm" src="images/activites_P2/parc-national-des-calanques_desktop.jpg"
+                    alt="parc national des calanques">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">Parc National des Calanques</h4>
+              </a>
+            </article>
+          </div>
+          <div class="am_cont_SP">
+            <article class="am_card_sm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="
+                        images/activites_P2/notre-dame-de-la-garde_desktop.jpg
+                      ">
+                  <source media="(min-width: 768px)" srcset="
+                        images/activites_P2/notre-dame-de-la-garde_tablet.jpg
+                      ">
+                  <source media="(max-width: 767px)" srcset="
+                        images/activites_P2/notre-dame-de-la-garde_mobile.jpg
+                      ">
+                  <img class="am_img_sm" src="images/activites_P2/notre-dame-de-la-garde_desktop.jpg"
+                    alt="notre dame de la garde">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">Notre-Dame-de-la-Garde</h4>
+              </a>
+            </article>
+            <article class="am_card_sm">
+              <a href="#">
+                <picture class="am_pic">
+                  <source media="(min-width: 993px)" srcset="images/activites_P2/parc-longchamp_desktop.jpg">
+                  <source media="(min-width: 768px)" srcset="images/activites_P2/parc-longchamp_tablet.jpg">
+                  <source media="(max-width: 767px)" srcset="images/activites_P2/parc-longchamp_mobile.jpg">
+                  <img class="am_img_sm2" src="images/activites_P2/parc-longchamp_desktop.jpg" alt="parc longchamp">
+                </picture>
+                <span class="overlay">Découvrez-en plus ...</span>
+                <h4 class="am_title_card">Parc Longchamp</h4>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="background-color footer--no_radius">
+      <div class="footer_nav">
+        <ul class="footer_ul">
+          <li class="footer_li">
+            <h4>A propos</h4> <br><br>
+          </li>
+
+          <li class="footer_li"><a href="#">Fonctionnement du site</a></li>
+
+          <li class="footer_li">
+            <a href="#">Conditions générales de vente</a>
+          </li>
+
+          <li class="footer_li">
+            <a href="#">Données et confidentialité</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer_nav">
+        <ul class="footer_ul">
+          <li class="footer_li">
+            <h4>Nos Hébergements</h4><br><br>
+          </li>
+
+          <li class="footer_li"><a href="#">Charte qualité</a></li>
+
+          <li class="footer_li"><a href="#">Soumettre votre Hotel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_nav">
+        <ul class="footer_ul">
+          <li class="footer_li">
+            <h4>Assistance</h4><br><br>
+          </li>
+
+          <li class="footer_li"><a href="#">Centre d'aide</a></li>
+
+          <li class="footer_li"><a href="#">Nous contacter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

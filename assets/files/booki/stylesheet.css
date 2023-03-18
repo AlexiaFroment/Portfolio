@@ -1,0 +1,1219 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1pxdotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em0.75em0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: content-box;
+}
+/*reglages polices*/
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 14px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: bolder;
+  display: inline;
+  margin: 0;
+}
+.price {
+  font-weight: bold;
+}
+.fli {
+  flex-direction: column;
+}
+span a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+h4 a {
+  text-decoration: none;
+}
+
+#main_cont {
+  max-width: 1440px;
+  margin: auto;
+}
+/**Sections**/
+/**HEADER_CONT**/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  padding: 0px 15px 0px 15px;
+}
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+}
+.header_title {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 60px;
+  padding-top: 15px;
+}
+/**Navigation**/
+nav ul {
+  height: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  margin-right: 40px;
+  align-items: center;
+}
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.links a:hover {
+  color: #0065fc;
+}
+.links:hover {
+  border-top: #0065fc 3px solid;
+}
+/**SEARCH_CONT**/
+.search_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: 10px 0px 25px 15px;
+}
+/**Barre de recherche**/
+.navigation_bar {
+  width: 305px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+/*Icon GPS*/
+.gpsIcons {
+  width: 40px;
+  background-color: #f2f2f2;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px #f2f2f2 solid;
+}
+/*Search bouton Marseille*/
+.search_btn {
+  height: 38px;
+  border: 1px #f2f2f2 solid;
+}
+/*Search bouton Rechercher*/
+.search_word {
+  width: 110px;
+  background: #0065fc;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-weight: bold;
+  padding-right: 10px;
+  cursor: pointer;
+  border: 1px #0065fc solid;
+}
+
+/**Section filtres**/
+.button {
+  height: 32px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  margin: 5px 7px 7px 12px;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.tabIcons {
+  display: flex;
+  align-items: center;
+}
+.tabIcons i {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #0065fc;
+  background-color: #deebff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: -3px;
+}
+.tabIcons h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.infoIcons {
+  display: flex;
+  align-items: center;
+}
+.infoIcons i {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #0065fc;
+  border: #f2f2f2 1px solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 1px;
+  margin: 4px;
+}
+/*Fd gris de la section 2, 3 & 5*/
+.background-color {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding-bottom: 15px;
+}
+.background-color + h2 {
+  position: relative;
+  left: 60px;
+}
+
+/**HMLPP**/
+#hmlpp_cont {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/**HM_CONT**/
+.hm_dim {
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+}
+.hm_title {
+  padding: 10px;
+}
+.hm_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*Overlay*/
+.hm_card {
+  width: 29%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin: 7px;
+  line-height: 150%;
+  position: relative;
+}
+.hm_card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hm_card:hover .overlay {
+  transform: scale(1);
+}
+
+.hm_carddesc {
+  padding-left: 10px;
+}
+.hm_carddesc a {
+  text-decoration: none;
+  color: black;
+}
+.hm_img {
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.hm_ap {
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/**LPP_CONT**/
+.lpp_dim {
+  width: 31%;
+}
+.lpp_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.starIcons {
+  padding-right: 10px;
+}
+.lpp_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.lpp_card {
+  display: flex;
+  width: 90%;
+  height: 140px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin: 7px;
+  position: relative;
+}
+.lpp_card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.lpp_card:hover .overlay {
+  transform: scale(1);
+}
+.lpp_carddesc {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+  line-height: 150%;
+}
+.lpp_carddesc a {
+  text-decoration: none;
+  color: black;
+}
+.lpp_carddesc .rating {
+  align-self: flex-start;
+}
+.lpp_img {
+  width: 130px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+
+/**AM**/
+#am_cont {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#am_cont a {
+  text-decoration: none;
+  color: black;
+}
+.am_title {
+  padding: 15px 0px 0px 15px;
+}
+.am_cont_BP {
+  width: 22%;
+  display: flex;
+}
+.am_cont_SP {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.am_pic {
+  display: block;
+  margin-bottom: 7px;
+}
+.am_title_card {
+  display: inline;
+  padding-left: 10px;
+}
+.am_card_gm {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.am_card_gm .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.am_card_gm:hover .overlay {
+  transform: scale(1);
+}
+.am_img_gm {
+  width: 100%;
+  height: 360px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+#am_card_mm {
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+#am_card_mm .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+#am_card_mm:hover .overlay {
+  transform: scale(1);
+}
+.am_img_mm {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: center left;
+}
+.am_card_sm {
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.am_card_sm .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+.am_card_sm:hover .overlay {
+  transform: scale(1);
+}
+.am_img_sm {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: center top;
+}
+.am_img_sm2 {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: center;
+}
+#am_card_xsm {
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px silver;
+  padding: 2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+#am_card_xsm .overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+#am_card_xsm:hover .overlay {
+  transform: scale(1);
+}
+.am_img_xsm {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+/**FOOTER**/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer--no_radius {
+  border-radius: 0px;
+}
+.footer_nav {
+  flex-basis: 400px;
+}
+.footer_ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer_li {
+  display: block;
+}
+.footer_li a {
+  text-decoration: none;
+  color: black;
+}
+/*Rating*/
+.stars {
+  align-self: flex-end;
+}
+.fa-star {
+  color: #f2f2f2;
+  cursor: pointer;
+  padding: 1px;
+  font-size: small;
+}
+/* Si elle porte en plus la classe '.blue', elle sera en bleue. */
+.fa-star.blue {
+  color: #0065fc;
+}
+
+/**?Responsive**/
+
+/**?Tablet de 768 à 992px**/
+@media screen and (max-width: 992px) {
+  #main_cont {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h4 {
+    font-size: 13px;
+  }
+
+  /**HM_CONT**/
+  .hm_dim {
+    width: 59%;
+  }
+  .hm_card {
+    width: 44%;
+  }
+  .hm_img {
+    height: 110px;
+  }
+  /**LPP_CONT**/
+  .lpp_dim {
+    width: 38%;
+  }
+  .lpp_card {
+    height: 150px;
+  }
+  .lpp_carddesc {
+    margin-left: 7px;
+  }
+  .lpp_img {
+    width: 120px;
+    height: 150px;
+  }
+
+  /**AM_CONT**/
+  .am_title_card {
+    padding-left: 5px;
+    font-size: 0.75em;
+  }
+  .am_pic {
+    margin-bottom: 0px;
+  }
+  /**FOOTER**/
+  .footer_li {
+    font-size: 12px;
+  }
+
+  /**?Mobile de X à 767px**/
+  @media screen and (max-width: 767px) {
+    #main_cont {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /**HEADER**/
+    header {
+      flex-direction: column;
+    }
+    .header_logo {
+      flex-direction: column;
+    }
+    .logo {
+      height: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul {
+      justify-content: center;
+      margin: 10px;
+      padding: 0px;
+    }
+    li {
+      font-size: 24px;
+      flex-basis: 50%;
+      flex-grow: 1;
+      justify-content: center;
+      margin: 0;
+    }
+    .links:hover {
+      font-size: 26px;
+      border-top: none;
+      border-bottom: #0065fc 3px solid;
+      width: 100%;
+    }
+
+    /**SEARCH_CONT**/
+    /*Barre de recherche*/
+    .navigation_bar {
+      margin-left: auto;
+      margin-right: auto;
+      width: 405px;
+    }
+    /*Icon GPS*/
+    .gpsIcons {
+      width: 40px;
+    }
+    /*Search bouton Marseille*/
+    .search_btn {
+      width: 255px;
+    }
+    /*Search bouton Rechercher*/
+    .search_word {
+      width: 110px;
+    }
+    .filters_title {
+      width: 100%;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    /*Fd gris de la section 2, 3 & 5*/
+    h4 {
+      font-size: 27px;
+    }
+    .night {
+      font-size: 19px;
+    }
+    .background-color {
+      border-radius: 0px;
+    }
+    #hmlpp_cont {
+      flex-direction: column;
+    }
+    /**LPP_CONT**/
+    .lpp_dim {
+      width: 100%;
+    }
+    .lpp_card {
+      width: 90%;
+      height: 260px;
+      padding: 7px;
+    }
+    .lpp_img {
+      width: 100%;
+      height: 260px;
+      object-fit: fill;
+    }
+    .lpp_carddesc {
+      margin-left: 20px;
+      padding-top: 15px;
+      line-height: 32px;
+    }
+    /**HM_CONT**/
+    .hm_cont {
+      flex-direction: column;
+      align-items: center;
+    }
+    .hm_dim {
+      width: 100%;
+      order: 1;
+      background-color: white;
+    }
+    .hm_card {
+      width: 90%;
+      height: 280px;
+      padding: 7px;
+    }
+    .hm_img {
+      width: 100%;
+      height: 198px;
+      object-fit: cover;
+    }
+    /**AM_CONT**/
+    #am_cont {
+      flex-direction: column;
+    }
+    .am_cont_BP {
+      width: 100%;
+      justify-content: center;
+    }
+    .am_cont_SP {
+      width: 100%;
+      align-items: center;
+    }
+    .am_card_gm,
+    #am_card_mm,
+    .am_card_sm,
+    #am_card_xsm {
+      width: 90%;
+      height: 280px;
+      padding: 7px;
+    }
+    .am_img_gm,
+    .am_img_sm2,
+    .am_img_xsm {
+      height: 240px;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+    .am_img_sm {
+      height: 240px;
+      object-fit: cover;
+      object-position: top;
+    }
+    .am_img_mm {
+      height: 240px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .am_title_card {
+      font-size: 24px;
+    }
+    /**FOOTER**/
+    footer {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .footer_nav {
+      flex-basis: 0px;
+    }
+    .footer_li {
+      text-align: left;
+      font-size: 14px;
+    }
+  }
+}
+/**?Mobile de 320px à 576px**/
+@media screen and (max-width: 576px) {
+  #main_cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 11px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  li {
+    font-size: 20px;
+  }
+  .night {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+  /**HEADER**/
+  /**SEARCH_CONT**/
+  /*Barre de recherche*/
+  .navigation_bar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+  }
+  /*Icon GPS*/
+  .gpsIcons {
+    width: 30px;
+  }
+  /*Search bouton Marseille*/
+  .search_btn {
+    width: 192px;
+    font-size: 14px;
+  }
+  /*Search bouton Rechercher*/
+  .search_word {
+    width: 83px;
+    font-size: 12px;
+  }
+  .infoIcons {
+    font-size: 12px;
+  }
+  /**LPP_CONT**/
+
+  .lpp_card {
+    width: 95%;
+    height: 260px;
+    padding: 2px;
+  }
+  .lpp_img {
+    width: 180px;
+  }
+  .lpp_carddesc {
+    margin-left: 10px;
+    padding-top: 15px;
+    line-height: 32px;
+  }
+  /**HM_CONT**/
+  .hm_ap {
+    font-size: 14px;
+  }
+
+  /**AM_CONT**/
+  .am_title_card {
+    font-size: 12px;
+  }
+}
