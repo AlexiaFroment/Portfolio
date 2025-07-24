@@ -202,7 +202,7 @@ header h2 {
 .image {
   min-width: 60px;
   margin: 10px;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
   overflow: hidden;
   position: relative;
@@ -241,7 +241,7 @@ header h2 {
 }
 .active .text-container {
   visibility: visible;
-  transform: translateY(0px);
+  transform: translateY(0.3px);
   opacity: 1;
 }
 
